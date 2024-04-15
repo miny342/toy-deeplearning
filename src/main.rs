@@ -1,5 +1,6 @@
 use nn::Matrix;
 mod nn;
+mod matrix;
 
 fn main() {
     let contents = std::fs::read_to_string("mnist_train.csv").unwrap();
